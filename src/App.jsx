@@ -5,6 +5,7 @@ import HomePage from "./page/HomePage";
 import Frontend from "./page/Frontend";
 import WebDesign from "./page/WebDesign";
 import Modeling from "./page/Modeling";
+import Project from "./page/Project";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Service />}>
             <Route index element={<HomePage />} />
             <Route path="/home/galery" element={<GaleryPage />} />
+            <Route path="/home/project" element={<Project />} />
             <Route path="/frontend" element={<Frontend />} />
             <Route path="/uiux" element={<WebDesign />} />
             <Route path="/modeling" element={<Modeling />} />
