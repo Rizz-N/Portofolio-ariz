@@ -1,12 +1,5 @@
 import Card from "../component/card";
-import {
-  FaReact,
-  FaPaintBrush,
-  FaCube,
-  FaInstagram,
-  FaGithubSquare,
-  FaFacebookSquare,
-} from "react-icons/fa";
+import { FaReact, FaPaintBrush, FaCube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {

@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import DashImg from "../assets/img/DashboardPanel.png";
 import AbsenImg from "../assets/img/HomePage.png";
+import Projectimg from "../assets/img/Maison.png";
 
 const Project = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -43,6 +44,18 @@ const Project = () => {
       views: "0",
       category: "Fullstack",
     },
+    {
+      id: 2,
+      title: "Web Galery",
+      description: "Website Galery dengan fitur preview gambar dan download",
+      image: Projectimg,
+      tags: ["HTML", "Tailwind", "GitHub pages"],
+      githubLink: "https://github.com/Rizz-N/maison-rose",
+      liveLink: "https://google.com",
+      stars: "0",
+      views: "0",
+      category: "uiux",
+    },
   ];
 
   // Filter categories
@@ -65,7 +78,7 @@ const Project = () => {
       id: "uiux",
       label: "UI/UX",
       icon: <FaPaintBrush />,
-      count: projects.filter((p) => p.category.toLowerCase().includes("ui/ux"))
+      count: projects.filter((p) => p.category.toLowerCase().includes("uiux"))
         .length,
     },
     {
