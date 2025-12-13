@@ -26,7 +26,7 @@ const Project = () => {
       image: DashImg,
       tags: ["React", "Node.js", "MySQL", "Tailwind"],
       githubLink: "https://github.com/Rizz-N/pkm-student-attachment",
-      liveLink: "https://pkm-student-attachment.vercel.app/",
+      liveLink: "https://github.com/Rizz-N/pkm-student-attachment",
       stars: "1",
       views: "0",
       category: "Fullstack",
@@ -39,22 +39,23 @@ const Project = () => {
       image: AbsenImg,
       tags: ["React", "Node.js", "MySQL", "Tailwind"],
       githubLink: "https://github.com/Rizz-N/pkm-student-attachment",
-      liveLink: "https://pkm-student-attachment.vercel.app/",
+      liveLink: "https://github.com/Rizz-N/pkm-student-attachment",
       stars: "1",
       views: "0",
       category: "Fullstack",
     },
     {
       id: 2,
-      title: "Web Galery",
-      description: "Website Galery dengan fitur preview gambar dan download",
+      title: "Maison Rose",
+      description:
+        "Website Galery dengan fitur preview gambar dan download dan gambar di ambil dari storage appwrite",
       image: Projectimg,
-      tags: ["HTML", "Tailwind", "GitHub pages"],
+      tags: ["HTML", "Tailwind", "AppWrite", "GitHub pages"],
       githubLink: "https://github.com/Rizz-N/maison-rose",
-      liveLink: "https://google.com",
+      liveLink: "https://rizz-n.github.io/maison-rose/",
       stars: "0",
       views: "0",
-      category: "uiux",
+      category: "Fullstack",
     },
   ];
 
@@ -139,7 +140,7 @@ const Project = () => {
           },
           {
             label: "GitHub Stars",
-            value: "1,278",
+            value: "1",
             color: "from-yellow-500 to-orange-500",
           },
           {
@@ -149,7 +150,7 @@ const Project = () => {
           },
           {
             label: "Technologies",
-            value: "24+",
+            value: "10",
             color: "from-blue-500 to-cyan-500",
           },
         ].map((stat, index) => (
@@ -245,7 +246,7 @@ const Project = () => {
               Hire Me for a Project
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="https://wa.me/6285810614293"
               className="px-8 py-4 bg-gray-900 border border-gray-700 text-white font-bold text-lg rounded-xl hover:bg-gradient-to-r hover:from-gray-800 hover:to-gray-900 hover:border-orange-500/50 transition-all duration-300"
             >
               Contact Me

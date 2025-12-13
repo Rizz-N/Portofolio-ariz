@@ -7,11 +7,11 @@ const Footer = () => {
       <h1 className="absolute justify-center text-9xl font-bold bg-linear-to-b from-black via-orange-600 to-black bg-clip-text text-transparent">
         PORTOFOLIO
       </h1>
-      <div className="absolute top-20 right-30 flex items-center justify-center h-20 w-20 border-y-3 border-orange-500 rounded-full animate-spin">
-        <div className="h-10 w-10 border-x-3 border-white rounded-full animate-spin"></div>
+      <div className="absolute top-20 right-30 flex items-center justify-center h-20 w-20 rounded-full animate-spin border-4 border-orange-500 border-t-transparent">
+        <div className="h-10 w-10 rounded-full animate-spin border-4 border-white border-b-transparent"></div>
       </div>
-      <div className="absolute bottom-20 left-30 flex items-center justify-center h-20 w-20 border-y-3 border-orange-500 rounded-full animate-spin">
-        <div className="h-10 w-10 border-x-3 border-white rounded-full animate-spin"></div>
+      <div className="absolute bottom-20 left-30 flex items-center justify-center h-20 w-20 rounded-full animate-spin border-4 border-orange-500 border-t-transparent">
+        <div className="h-10 w-10 rounded-full animate-spin border-4 border-white border-b-transparent"></div>
       </div>
       <div className="inline-block w-full bg-white/10 backdrop-blur-xs rounded-xl py-10 px-5">
         <div className="flex flex-col text-orange-500">
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="absolute bottom-0 text-white">
-        <p>&copy; Portofolio ariz | 2026</p>
+        <p>&copy; Portofolio ariz | 2025</p>
       </div>
     </div>
   );
