@@ -1,4 +1,4 @@
-import Card from "../component/card";
+import Card from "../component/Card";
 import { FaReact, FaPaintBrush, FaCube } from "react-icons/fa";
 
 const HomePage = () => {
