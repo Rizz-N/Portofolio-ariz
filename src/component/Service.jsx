@@ -7,7 +7,7 @@ const Service = () => {
       <div>
         <Navbar />
       </div>
-      <div className="mt-20">
+      <div className="md:mt-20 mt-18">
         <Outlet />
       </div>
       <div>

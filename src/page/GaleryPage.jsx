@@ -9,7 +9,7 @@ const GaleryPage = () => {
   return (
     <>
       <div className="bg-black min-h-screen px-6 py-10">
-        <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+        <div className="columns-3 md:columns-3 lg:columns-4 gap-4">
           {Object.values(images).map((img, i) => (
             <img
               key={`img-${i}`}

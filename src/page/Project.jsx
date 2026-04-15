@@ -11,6 +11,7 @@ import {
 import DashImg from "../assets/img/DashboardPanel.png";
 import AbsenImg from "../assets/img/HomePage.png";
 import Projectimg from "../assets/img/Maison.png";
+import LandingPg from "../assets/img/landingPage.png";
 
 const Project = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -45,7 +46,7 @@ const Project = () => {
       category: "Fullstack",
     },
     {
-      id: 2,
+      id: 3,
       title: "Maison Rose",
       description:
         "Website Galery dengan fitur preview gambar dan download dan gambar di ambil dari storage appwrite",
@@ -56,6 +57,18 @@ const Project = () => {
       stars: "0",
       views: "0",
       category: "Fullstack",
+    },
+    {
+      id: 4,
+      title: "Pastry Shop",
+      description: "landing page with feature cart to input customer order",
+      image: LandingPg,
+      tags: ["HTML", "Tailwind", "Javascript", "GitHub pages"],
+      githubLink: "https://github.com/Rizz-N/landing_page",
+      liveLink: "https://rizz-n.github.io/landing_page/",
+      stars: "0",
+      views: "0",
+      category: "Frontend",
     },
   ];
 
@@ -72,7 +85,7 @@ const Project = () => {
       label: "Fullstack",
       icon: <FaCode />,
       count: projects.filter((p) =>
-        p.category.toLowerCase().includes("fullstack")
+        p.category.toLowerCase().includes("fullstack"),
       ).length,
     },
     {
@@ -109,7 +122,7 @@ const Project = () => {
       project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.tags.some((tag) =>
-        tag.toLowerCase().includes(searchTerm.toLowerCase())
+        tag.toLowerCase().includes(searchTerm.toLowerCase()),
       );
 
     return matchesCategory && matchesSearch;
